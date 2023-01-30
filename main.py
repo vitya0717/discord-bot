@@ -6,9 +6,9 @@ from riotwatcher import LolWatcher
 from SummonerStat import SummonerStat
 
 load_dotenv()
-DC_TOKEN = 'MTA2OTI2MzcxMDQzNjIxMjg1Ng.GH0xEF.D7i5jx7_N1f4Sbba63O-pB6Vr93ADmnke6fddc'
+DC_TOKEN = 'YOUR TOKEN'
 client = discord.Client(intents=discord.Intents.all())
-lol_api = LolWatcher('RGAPI-85906373-08ff-4016-9926-fb28dd9cd526')
+lol_api = LolWatcher('LOL API KEY')
 region = 'EUN1'
 
 
